@@ -1,15 +1,20 @@
 # Set_up_DDNS
 
-Use ifconfig -a to see networks and their IP addresses
+To see networks and their IP addresses
+```
+ifconfig -a
+```
 
 
-
-
-noip2 -C (create configuration)
+Set up and Run no-ip
+```
+noip2 -C (create configuration) 
 noip2 -S (see current running configurations)
 noip2 -K ##### (kill current configuration)
+```
 
 
-
-#if there are permssion issues with noip2 -C
+if there are permssion issues with noip2 -C
+```
 sudo chmod a+rwx /usr/local/etc /usr/local/etc/no-ip2.conf
+```
