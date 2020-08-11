@@ -18,3 +18,4 @@ if there are permssion issues with noip2 -C
 ```
 sudo chmod a+rwx /usr/local/etc /usr/local/etc/no-ip2.conf
 ```
+https://www.noip.com/support/knowledgebase/how-to-configure-ddns-in-router/
