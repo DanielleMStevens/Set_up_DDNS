@@ -9,6 +9,7 @@ ifconfig -a
 Set up and Run no-ip
 ```
 noip2 -C (create configuration) 
+/usr/local/bin/noip2 (to activate process created)
 noip2 -S (see current running configurations)
 noip2 -K ##### (kill current configuration)
 ```
